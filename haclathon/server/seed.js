@@ -235,6 +235,7 @@ const run = async () => {
     transaction_id: openFraudTransaction._id,
     user_id: alice._id,
     fraud_report_id: openFraudReport._id,
+    user_message: 'I did not make this transaction. Please return my funds.',
     admin_notes: 'Awaiting supporting evidence from user.',
     status: 'open',
     created_at: offsetMinutes(130)
