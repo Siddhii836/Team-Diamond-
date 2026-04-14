@@ -17,3 +17,5 @@ A secure digital wallet application built in three phases with a MongoDB-backed 
 **Layer 6: Zero-Knowledge Identity.** Raw identity values are transformed into SHA-256 hashes before they reach persistence. That means the application can verify or compare identity references without ever storing or displaying the original value.
 
 **Layer 7: Security Hardening.** The server uses Helmet, a strict CORS origin allowlist, and rate limiting at the global and login route levels. The frontend mirrors that hardening with protected routes, room-scoped socket joins, and authenticated receipt downloads.
+
+U can see the demo video - https://drive.google.com/file/d/1Bm7b5MGU4JsLKy_u7gX4jt3H_P0n-hab/view?usp=sharing
